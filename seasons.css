@@ -1,0 +1,215 @@
+html, body{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #575555;
+}
+
+#spring{
+	background-color: green;
+}
+#winter{
+	background-color: #37a6de;
+}
+#summer{
+	background-color: darkgreen;
+}
+#fall{
+	background-color: darkred;
+}
+
+#wrap{
+	width: 70%;
+	margin:0 auto;
+	background-color: white;
+}
+
+header{
+	background: white;
+	text-align:center;
+}
+
+header img{
+	width: 80%;
+	padding: 8px 0 0 0;
+}
+#winter nav{
+	background-color: lightblue;
+	text-align: center;
+	padding: 10px 0;
+	font-family: Verdana;
+}
+
+#summer nav{
+	background-color: blue;
+	text-align: center;
+	padding: 10px 0;
+	font-family: Verdana;
+}
+
+#spring nav{
+	background-color: #7ed957;
+	text-align: center;
+	padding: 10px 0;
+	font-family: Verdana;
+}
+
+#fall nav{
+	background-color: orange;
+	text-align: center;
+	padding: 10px 0;
+	font-family: Verdana;
+}
+
+nav{
+	background-color: darkgrey;
+	text-align: center;
+	padding: 10px 0;
+	font-family: Verdana;
+}
+
+nav a{
+	color: black;
+	padding: 10px 30px;
+	text-decoration: none;
+}
+
+nav li{
+	display: inline;
+}
+
+nav ul{
+	padding: 0;
+	margin: 0;
+}
+
+nav a:hover {
+	color: red;
+	background-color: darkgrey;
+}
+
+#spring nav a:hover {
+	color: red;
+	background-color: #7ed957;
+}
+
+#summer nav a:hover {
+	color: red;
+	background-color: blue;
+}
+
+#fall nav a:hover {
+	color: red;
+	background-color: orange;
+}
+
+#winter nav a:hover {
+	color: red;
+	background-color: lightblue;
+}
+
+.button{
+	background-color: #150478;
+	color:white;
+	text-decoration: none;
+	margin: 15px 0;
+	padding: 15px;
+	display: inline-block;
+	border-radius: 8px;
+}
+a.button:hover{
+	background-color: black;
+	color: #8f0303;
+}
+
+
+
+section header{
+	font-weight: bold;
+	padding: 10px 0 0 0;
+}
+
+
+section{
+	padding: 0 0 0 40px;
+}
+
+#spring section img{
+	padding: 20 0 0 80px;
+	
+}
+
+footer{
+	background-color: black;
+	color: yellow;
+	text-align: center;
+	font-weight: bold;
+	padding: 10px 0;
+	position: relative;
+	margin-top: 85px;
+}
+
+#summer footer{
+	background-color: black;
+	color: yellow;
+	text-align: center;
+	font-weight: bold;
+	padding: 10px 0;
+	position: bottom;
+	margin-top: 100px;
+}
+
+#fall footer{
+	background-color: black;
+	color: yellow;
+	text-align: center;
+	font-weight: bold;
+	padding: 10px 0;
+	position: bottom;
+	margin-top: 100px;
+}
+
+.tree{
+	width: 30%;
+	float: leftwards;
+}
+
+#summer .tankfront{
+	width: 38%;
+	float: right;
+	padding: 4px 0 0 10px;
+}
+
+#winter .tankfront{
+	width: 35%;
+	height: 80%;
+	float: right;
+	padding: 4px 0 0 10px;
+}
+
+
+#spring .tankfront{
+	width: 40%;
+	float: right;
+	padding: 20px 0 0 10px;
+}
+
+#fall .tankfront{
+	width: 35%;
+	float: right;
+	padding: 4px 0 0 10px;
+}
+
+.tankfront{
+	width: 20%;
+	float: right;
+	padding: 20px 0 0 10px;
+}
+
+.seatree{
+	width: 70%;
+	padding: 0;
+}
+
